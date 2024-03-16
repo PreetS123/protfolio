@@ -1,7 +1,13 @@
-import React from 'react'
+import { AppBar } from '@mui/material'
+import React from 'react';
+import './HeaderStyles';
 
 export const Header = () => {
   return (
-    <div>Header</div>
+    <>
+    <AppBar position='fixed'>
+        
+    </AppBar>
+    </>
   )
 }
